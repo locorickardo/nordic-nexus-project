@@ -9,8 +9,8 @@
           <ul class="social-links">
             <li><a href="https://discord.gg/gvVdMhBKXY" target="_blank" rel="noopener noreferrer"><i
                   class="fa-brands fa-discord"></i></a></li>
-            <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"><i
-                  class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://steamcommunity.com/groups/nordicnexus" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-steam"></i></a></li>
           </ul>
         </div>
       </div>
@@ -58,6 +58,6 @@ footer {
 }
 
 .social-links a:hover {
-  color: #007bff;
+  color: #7bffa5;
 }
 </style>
