@@ -7,14 +7,10 @@
         </div>
         <div class="col">
           <ul class="social-links">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i
-                  class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i
-                  class="fab fa-twitter"></i></a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i
-                  class="fab fa-instagram"></i></a></li>
-            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i
-                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://discord.gg/gvVdMhBKXY" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-discord"></i></a></li>
+            <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"><i
+                  class="fa-brands fa-tiktok"></i></a></li>
           </ul>
         </div>
       </div>
