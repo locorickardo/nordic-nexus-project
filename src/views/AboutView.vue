@@ -17,39 +17,32 @@
 
 <style>
 .about-text {
+    font-family: Ubuntu;
+    font-weight: 300;
     color: white;
     max-width: 700px;
     text-align: center;
     margin: 0 auto;
-    /* Center the block horizontally */
-
-    /* Use Flexbox to center the text vertically */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    /* Take full viewport height */
 }
 
 .about-image {
     width: 100%;
-    /* Adjust the width as needed */
     max-width: 400px;
-    /* You can set a maximum width */
     margin-bottom: 20px;
 }
 
 h1 {
     margin-top: 0;
-    /* Removes any space above the h1 */
     margin-bottom: 10px;
-    /* Adds a small gap below the h1 */
 }
 
 p {
     margin-top: 0;
-    /* Removes any space above the p */
 }
 </style>
 
