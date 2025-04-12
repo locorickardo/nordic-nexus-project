@@ -27,7 +27,7 @@ export default {
 <style scoped>
 footer {
   color: white;
-  padding: 20px;
+  padding: 22px;
   position: relative;
   width: 100%;
   backdrop-filter: blur(10px);

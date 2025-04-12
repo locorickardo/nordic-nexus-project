@@ -19,7 +19,7 @@
                             <a class="nav-link" href="about">Om Oss</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://discord.gg/gvVdMhBKXY">Discord</a>
+                            <a class="nav-link" href="https://discord.gg/gvVdMhBKXY">Join our Discord!🎧</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="statistik">Statistik</a>
