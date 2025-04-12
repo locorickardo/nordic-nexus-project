@@ -1,17 +1,24 @@
 <template>
     <div class="about-text">
         <img src="../assets/img/Fox_Maskot_1.png" alt="Nordic Nexus Logo" class="about-image">
-        <h1>Om oss</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue ut neque efficitur rhoncus.
-            Fusce nec ligula et diam ornare bibendum. Nulla in vulputate leo. Curabitur feugiat laoreet massa, non
-            feugiat lectus sodales quis. Etiam fringilla eleifend magna, at ultrices odio feugiat non. Curabitur
-            convallis nisl sit amet ipsum feugiat ornare et id nisi. Donec blandit ultricies semper. Maecenas molestie,
-            diam sit amet mattis dapibus, massa felis posuere orci, eu consequat massa tortor vitae orci. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus non ultrices tortor.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce blandit
-            blandit tortor, ut venenatis elit vulputate quis. In est urna, laoreet id lorem eget, maximus euismod arcu.
-            Donec sed sapien mi. Nulla rutrum tortor tortor, id volutpat dui ultrices non. Duis quis metus vulputate
-            nunc tincidunt cursus eget sed lacus.</p>
+        <h1>Nordic Nexus🏔️</h1>
+        <p>Vi är en gaming community som vill skapa en toxic-free miljö där alla ska känna sig välkomna och uppskattade
+            oavsett vem du är. Vårat mål är att bygga en stor medlemsbas för att kunna anordna spelkvällar, events,
+            turneringar och annat. Oavsett om du har en kärlek för gaming, filmer, serier eller kanske bara det sociala,
+            så är du varmt välkommen.<br><br>
+
+            Vårat mål är att med tiden kunna anordna turneringar i olika spel, events, gamingkvällar och annat kul
+            regelbundet! Med tiden så kommer vi på nya idéer tillsammans, och även vi i staff kommer jobba på en del
+            saker i bakgrunden för att nå våra mål.<br><br>
+
+            Alla är varmt välkomna och vi hoppas att du kommer att trivas hos oss! Har du några funderingar så kan du
+            alltid bara fråga eller skapa en ticket. Så vad väntar du på? <br>Bjud in dina vänner så drar vi igång
+            gibbet!
+        </p>
+        <div class="pepe-image-wrapper">
+            <img :src="imageSrc" alt="Pepe Gaming" class="pepe-image" @mouseover="imageSrc = hoverImage"
+                @mouseleave="imageSrc = 'src/assets/img/pepe-gaming.png'" />
+        </div>
     </div>
 </template>
 
@@ -36,6 +43,20 @@
     margin-bottom: 20px;
 }
 
+.pepe-image-wrapper {
+    display: inline-block;
+    padding: 0;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.pepe-image {
+    display: block;
+    width: 80px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
 h1 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -46,8 +67,10 @@ p {
 }
 </style>
 
-<script>
-export default {
-    name: 'AboutView',
-};
+<script setup>
+import { ref } from 'vue'
+
+// State för att hålla bildens källa
+const imageSrc = ref('src/assets/img/pepe-gaming.png') // Ursprunglig bild
+const hoverImage = 'src/assets/img/pepe-gaming2.png' // Bilden som ska visas vid hover
 </script>

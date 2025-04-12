@@ -22,7 +22,7 @@
                             <a class="nav-link" href="https://discord.gg/gvVdMhBKXY">Join our Discord!🎧</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="stats">Statistik</a>
+                            <a class="nav-link" href="stats">Online Members</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="signup">Turneringar</a>
