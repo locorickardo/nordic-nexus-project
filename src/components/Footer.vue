@@ -26,6 +26,7 @@ export default {
 
 <style scoped>
 footer {
+  color: white;
   padding: 20px;
   position: relative;
   width: 100%;
@@ -33,6 +34,9 @@ footer {
   z-index: 10;
 }
 
+body {
+  margin: 0;
+}
 
 .glass-gradient {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));

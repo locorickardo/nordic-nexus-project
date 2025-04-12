@@ -98,7 +98,7 @@
 
 .carousel-img {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     object-fit: cover;
     margin: 0 auto;
 }
