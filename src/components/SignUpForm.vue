@@ -1,35 +1,3 @@
-<script setup>
-import { ref, onMounted } from 'vue'
-
-const userName = ref('')
-const participants = ref([])
-
-const handleSubmit = () => {
-  if (userName.value) {
-    participants.value.push(userName.value)
-    localStorage.setItem('participants', JSON.stringify(participants.value))
-    userName.value = ''
-  } else {
-    alert('Var god och skriv in ditt namn!')
-  }
-}
-
-// Clear signup user list
-const handleClear = () => {
-  participants.value = []
-  localStorage.removeItem('participants')
-  userName.value = ''
-}
-
-// Fetch user data from localstorage
-onMounted(() => {
-  const savedParticipants = localStorage.getItem('participants')
-  if (savedParticipants) {
-    participants.value = JSON.parse(savedParticipants)
-  }
-})
-</script>
-
 <template>
   <div class="signup-page">
     <p class="centered-text">På Fredagen den 18/4 April är det dags! <br>Då håller vi i en CS turnering och alla <br>fem
@@ -166,3 +134,35 @@ h3 {
   color: white;
 }
 </style>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const userName = ref('')
+const participants = ref([])
+
+const handleSubmit = () => {
+  if (userName.value) {
+    participants.value.push(userName.value)
+    localStorage.setItem('participants', JSON.stringify(participants.value))
+    userName.value = ''
+  } else {
+    alert('Var god och skriv in ditt namn!')
+  }
+}
+
+// Clear signup user list
+const handleClear = () => {
+  participants.value = []
+  localStorage.removeItem('participants')
+  userName.value = ''
+}
+
+// Fetch user data from localstorage
+onMounted(() => {
+  const savedParticipants = localStorage.getItem('participants')
+  if (savedParticipants) {
+    participants.value = JSON.parse(savedParticipants)
+  }
+})
+</script>
