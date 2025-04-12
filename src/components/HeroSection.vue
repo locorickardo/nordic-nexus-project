@@ -102,4 +102,12 @@
     object-fit: cover;
     margin: 0 auto;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
 </style>
