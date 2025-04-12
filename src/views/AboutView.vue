@@ -1,6 +1,6 @@
 <template>
     <div class="about-text">
-        <img src="../assets/img/Nordic_Nexux_GPT_Logo.png" alt="Nordic Nexus Logo" class="about-image">
+        <img src="../assets/img/Fox_Maskot_1.png" alt="Nordic Nexus Logo" class="about-image">
         <h1>Om oss</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue ut neque efficitur rhoncus.
             Fusce nec ligula et diam ornare bibendum. Nulla in vulputate leo. Curabitur feugiat laoreet massa, non
