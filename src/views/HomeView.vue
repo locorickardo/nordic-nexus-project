@@ -5,3 +5,6 @@ import HeroSection from '@/components/HeroSection.vue';
 <template>
 <HeroSection />
 </template>
+
+<style scoped>
+</style>

@@ -1,28 +1,3 @@
-/* Define light theme by default */
-:root {
-    --background-color: white;
-    --text-color: black;
-    --link-color: #007bff;
-  }
-
-  /* Dark mode overrides */
-  .dark {
-    --background-color: #121212;
-    --text-color: white;
-    --link-color: #1e90ff;
-  }
-
-  /* Apply the variables */
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-  }
-
-  a {
-    color: var(--link-color);
-  }
-
-  button {
-    background-color: var(--link-color);
-    color: white;
-  }
+#app {
+  background-color: #121212;
+}

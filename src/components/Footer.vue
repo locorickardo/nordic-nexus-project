@@ -28,12 +28,9 @@ export default {
 footer {
   padding: 20px;
   position: relative;
-  /* Change from absolute to relative */
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   z-index: 10;
-  /* Ensure the footer is still above other content but not overlapping */
 }
 
 
