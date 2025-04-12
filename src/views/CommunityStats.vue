@@ -1,7 +1,11 @@
+<script setup>
+import NavBar from '@/components/NavBar.vue';
+import StatsSection from '@/components/StatsSection.vue';
+</script>
+
 <template>
-
-    <p>asd</p>
-
+<NavBar />
+<StatsSection />
 </template>
-<script></script>
+
 <style></style>
