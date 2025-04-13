@@ -81,14 +81,14 @@ const isDataLoaded = ref(true);
 
 .event-image {
     position: relative;
-    max-width: 90%; /* Reduce image size */
+    max-width: 90%;
     margin: 0 auto;
 }
 
 .event-image img {
     width: 100%;
-    height: auto;  /* Auto height for aspect ratio */
-    max-height: 50vh; /* Control the max height of the images */
+    height: auto;
+    max-height: 50vh;
     object-fit: cover;
 }
 
@@ -99,7 +99,7 @@ const isDataLoaded = ref(true);
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better readability */
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 1rem;
     border-radius: 0.8rem;
     max-width: 80%;
